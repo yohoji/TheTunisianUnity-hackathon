@@ -7,7 +7,7 @@ Zied Zhiri,
 Kamel Htira
 
 # What is The Tunisian Unity?
-This is a startup project idea founded by 3 members during the Hackathon event "INNOV IT" celebrating the 20th anniversary of the "Jeunes Ingénieurs" club at ISAMM Tunisia.
+This is a startup project idea founded by a team of 3 members during the Hackathon event "INNOV IT" celebrating the 20th anniversary of the "Jeunes Ingénieurs" club at ISAMM Tunisia.
 
 
 # The Main idea of our project:
