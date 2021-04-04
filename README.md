@@ -2,8 +2,8 @@
 
 
 # Team:
-Mohamed Sadek Saadi
-Zied Zhiri
+Mohamed Sadek Saadi,
+Zied Zhiri,
 Kamel Htira
 
 # What is The Tunisian Unity?
