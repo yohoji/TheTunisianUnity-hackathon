@@ -1,0 +1,1409 @@
+.lp-container,
+.button15,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center
+}
+
+body {
+    font-family: Allerta, sans-serif;
+    overflow-x: hidden;
+}
+
+.button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Londrina Solid', cursive
+}
+
+.container-fluid {
+    width: 80%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #141515
+}
+
+h1 {
+    font-size: 65px
+}
+
+h2 {
+    font-size: 60px
+}
+
+h4 {
+    font-size: 55px
+}
+
+h5 {
+    font-size: 40px;
+    color: #fff
+}
+
+h6 {
+    font-size: 25px
+}
+
+header {
+    padding: 30px 0
+}
+
+header .navigation {
+    float: left;
+    margin: 47px 0;
+}
+
+header .navigation li {
+    display: inline-block;
+    position: relative;
+    margin: 0 15px
+}
+
+header .navigation li.active:before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/hoverLines.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    height: 10px
+}
+
+header .navigation li:hover a {
+    color: #efcc23
+}
+
+header .navigation li a {
+    transition: .2s ease all;
+    font-size: 16px;
+    color: #141515;
+    text-decoration: none
+}
+
+header .headerContact {
+    float: right;
+    margin-top: 35px;
+}
+
+/* .logo {
+} */
+
+.circle1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 750px;
+    z-index: -1;
+}
+
+.banner h1,
+.bannerInner,
+.button15 {
+    position: relative;
+}
+
+.button15 {
+    overflow: hidden
+}
+
+.button15 {
+    display: inline-block
+}
+
+.button15 {
+    color: #000;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    border: 3px solid #000;
+    line-height: 42px;
+    height: 50px;
+    min-width: 160px;
+    border-radius: 20px;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 24px;
+    padding: 0 20px
+}
+
+.button15 a{
+    color: rgba(51, 51, 51, 1);
+    text-decoration: none;
+    display: block;
+    z-index: 99;
+    position: relative;
+    transition: 1s ease
+}
+
+.button15 input {
+    background-color: transparent;
+    border: none;
+    line-height: inherit;
+    margin: 0 auto
+}
+
+.yellowBtn {
+    background-color: #efcc23
+}
+
+.innercontainer {
+    padding:160px 0;
+}
+
+.button15::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #efcc23;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: translate(0, -100%);
+    transform: translate(0, -100%);
+    -webkit-transition-timing-function: cubic-bezier(.75, 0, .125, 1);
+    transition-timing-function: cubic-bezier(.75, 0, .125, 1)
+}
+
+.yellowBtn.button15::after {
+    background-color: #000;
+    z-index: 8
+}
+
+.yellowBtn.button15 a {
+    z-index: 9;
+    position: relative;
+    transition: .8s ease
+}
+
+.yellowBtn.button15:hover a {
+    color: #fff
+}
+
+.button15:hover a {
+    color: #000
+}
+
+.button15::after {
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s
+}
+
+.button15:hover::after {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+.buttonBox {
+    margin-top:40px;
+}
+
+.kidsbox {
+    position: relative;
+    height: 180px;
+}
+
+.kids {
+    position: absolute;
+    left: 18%;
+    top: 2px;
+    -webkit-transform: translatey(0);
+    transform: translatey(0);
+    -webkit-animation: float 6s ease-in-out infinite;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translatey(0)
+    }
+
+    50% {
+        transform: translatey(-20px)
+    }
+}
+
+.kidsBox {
+    position: relative;
+    height: 180px;
+}
+
+.orphans {
+    padding:70px 0;
+}
+
+.story-section {
+    display: table;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.story-section img {
+    width: 100%;
+    height: 734px;
+}
+
+.story-section .left, .story-section .right {
+    display: table-cell;
+    width: 50%;
+}
+
+.overlay, .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .3s, opacity .3s linear;
+}
+
+.story-section .cross {
+    z-index: 99999;
+}
+
+.story-section .right span {
+    right: auto;
+    left: 2px;
+}
+
+.story-section span {
+    position: absolute;
+    z-index: 9999999;
+    top: 0;
+    right: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.story-section span .fas{
+    font-size: 30px;
+    color: #efcc23;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.article {
+    display: table;
+    width: 100%;
+}
+
+.article .image {
+    position: relative;
+}
+
+.article .text {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.article .text p {
+    margin-bottom: 25px;
+}
+
+.article .text p.yellow {
+    color: #c1ab41;
+    border-top: 2px solid #eec917;
+    border-bottom: 2px solid #eec917;
+    padding: 20px 0;
+}
+
+.article .image, .article .text {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.article .button15 {
+    margin-top: 10px;
+}
+
+.overlay.active, .overlay2.active {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility .5s, opacity .5s linear;
+}
+
+
+
+.story-section .left .l-text {
+    position: absolute;
+    bottom: 10%;
+    left: 2.5%;
+    cursor: pointer;
+    text-align: left;
+}
+
+.bttn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.story-section .right .r-text {
+    position: absolute;
+    bottom: 8%;
+    right: 65px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.oura {
+    display: table;
+    width: 100%;
+}
+
+.left-illustration {
+    width: 50%;
+}
+
+.oura .righ-c {
+    width: 50%;
+    position: relative;
+}
+
+.bg-circle{
+    position: absolute;
+    background-color: #faf1d5;
+    width: 1000px;
+    height: 1000px;
+    right: -20%;
+    top: -40%;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.oura .left-illustration {
+    width: 50%;
+    position: relative;
+    left: 50px;
+}
+
+.oura .left-illustration, .oura .righ-c {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.oura .left-illustration img {
+    width: 80%;
+}
+
+.oura .righ-c .description {
+    width: 60%;
+    margin-left: 80px;
+    margin-top: 180px;
+}
+
+.oura .righ-c p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: #131413;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.team-effort {
+    padding:70px 0;
+}
+
+.team-effort p{
+    text-align: center;
+}
+
+.happykids {
+    text-align: center;
+    margin-top: 50px;
+    -webkit-transform: translatey(0);
+    transform: translatey(0);
+    -webkit-animation: float 6s ease-in-out infinite;
+    animation: float 6s ease-in-out infinite;
+}
+
+.donations {
+    padding:70px 0;
+}
+
+.donations-cards {
+    margin-top: 70px;
+}
+
+.card-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    margin-top: 50px;
+}
+
+.card-item {
+    -ms-flex: 25%;
+    flex: 25%;
+    display: inline-flex;
+    text-align: center;
+}
+
+.card-item .items:hover {
+    transform: translateY(-39px);
+    border-color: #efcc23
+}
+
+.items {
+    position: relative;
+    margin: 0;
+    padding: 60px 30px 0;
+    transition: .6s cubic-bezier(.4, 0, .2, 1);
+    border: 8px solid transparent;
+}
+
+.items .image{
+    height: 115px;
+    transition: .3s;
+    margin: 0 auto;
+}
+
+.items .heading {
+    margin-top: 41px;
+    margin-bottom: 27px;
+    transition: .3s;
+}
+
+.items .heading h5 {
+    color: #000;
+}
+
+.btn {
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+
+.footerleft {
+    position: relative;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 30px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.footerleft .fgirl {
+    position: absolute;
+    left: -10px;
+    top: 50px;
+    z-index: -1;
+}
+
+footer .btn {
+    display: block;
+    margin-top: 30px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+ul li {
+    display: inline;
+    margin-left: 10px;
+}
+ul li a {
+    color:#000;
+}
+
+ul li a:hover {
+    color:#efcc23;
+}
+
+footer .footerright {
+    text-align: center;
+}
+
+.hr {
+    margin: 30px 0 10px;
+}
+
+.hr img {
+    width: 100%;
+}
+
+.mission, .vision {
+width: 90%;
+}
+
+.vision {
+    text-align: right;
+}
+
+.vision p {
+    text-align:left;
+}
+
+.vision img {
+    right: -130px;
+    position: relative;
+}
+
+.mission {
+    text-align: left;
+    margin-left:auto;
+}
+
+.banner {
+    text-align: center;
+}
+
+.innerBanner {
+    padding:160px 0;
+}
+
+.about {
+    padding:70px 0;
+}
+
+.butn {
+    margin-top: 30px;
+}
+
+.formsart {
+    margin-top: 50px;
+}
+
+.cfa {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cfa h5 {
+    color: #282828;
+    margin: 10px 0;
+}
+
+.cfa p {
+    margin-bottom: 20px;
+}
+
+.cfa a {
+    color: #efcc23;
+}
+
+.inputBoxes {
+    margin-top: 100px;
+}
+
+.submitbtn {
+text-align: center;
+}
+
+form label {
+    font-size:22px;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+}
+
+form input[type=email], form input[type=number], form input[type=text] {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+form input:focus, form textarea {
+    outline: 0;
+}
+
+form textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid;
+    padding: 10px;
+    font-size: 18px;
+}
+
+input {
+    position: relative;
+    z-index: 999;
+}
+.submitbtn {
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.donations .container-fluid {
+    text-align: center;
+}
+
+/* responsivenes */
+
+@media(max-width:1500px) {
+    p {
+        font-size: 18px
+    }
+
+    .article .text p {
+        margin-bottom: 15px
+    }
+
+    .story-section span {
+        width: 40px;
+        height: 40px;
+        top: 20px;
+        right: 20px
+    }
+
+    .story-section .right span {
+        left: 20px
+    }
+
+    .button15 {
+        font-size: 20px
+    }
+
+    h2 {
+        font-size: 50px
+    }
+
+    .oura .left-illustration img {
+        width: 70%
+    }
+
+    .oura .righ-c .bg-circle {
+        width: 900px;
+        height: 900px
+    }
+
+    .card-item .items .btn {
+        padding-top: 20px;
+        padding-bottom: 60px
+    }
+
+    .pledge .pledgeText {
+        padding-left: 30px
+    }
+
+    .pledge .box p {
+        font-size: 20px;
+        top: 35%
+    }
+
+    .greenCircle {
+        width: 800px;
+        height: 800px
+    }
+
+    .absolImages {
+        height: 304px
+    }
+
+    .article .text {
+        padding-left: 40px;
+        padding-right: 40px
+    }
+
+    .article .text p.yellow {
+        padding: 10px 0
+    }
+
+    .imgabovecircle {
+        top: 40px
+    }
+}
+
+
+
+@media(max-width:1400px) {
+    h1 {
+        font-size: 60px
+    }
+
+    .innercontainer {
+        padding: 120px 0
+    }
+
+    .container-fluid {
+        width: 90%
+    }
+
+    .greenCircle,
+    .oura .right-c .bg-circle {
+        width: 850px;
+        height: 850px
+    }
+
+    .oura .right-c p {
+        font-size: 20px
+    }
+
+    .pledge {
+        padding-top: 0
+    }
+
+    .dashedlineright {
+        right: 70px
+    }
+}
+
+.bb{
+    margin-top: 190px;
+}
+
+.tt {
+    margin-top: 87px;
+}
+
+@media(max-width:1300px) {
+
+    .subsec p,
+    section h2 {
+        margin-bottom: 20px
+    }
+
+    .kids {
+        left: 6%
+    }
+
+    p {
+        font-size: 16px
+    }
+
+    .oura .righ-c .bg-circle {
+        width: 700px;
+        height: 700px
+    }
+
+    h5 {
+        font-size: 35px
+    }
+
+    .card-item .items .heading {
+        margin-top: 10px
+    }
+
+    .subsec h4 {
+        font-size: 50px
+    }
+
+    .absolImages {
+        height: 375px
+    }
+}
+
+@media(max-width:1200px) {
+
+    .story-section .right .text {
+        right: 20px
+    }
+
+    .container-fluid {
+        width: 100%
+    }
+
+    header .navigation li {
+        margin: 0 7px
+    }
+
+    .kids {
+        left: 0
+    }
+
+    .innercontainer {
+        padding: 70px 0
+    }
+
+    .story-section .left .text {
+        left: 25%
+    }
+
+    .story-section .text {
+        padding-left: 30px;
+        padding-right: 30px
+    }
+
+    .article .text p {
+        margin-bottom: 10px
+    }
+
+    .oura .righ-c .description {
+        width: 80%;
+        margin-left: 10px;
+        margin-top: 0
+    }
+
+    h5 {
+        font-size: 30px
+    }
+
+    .oura .righ-c .bg-circle {
+        width: 650px;
+        height: 650px
+    }
+
+    .circle1 {
+        width: 520px
+    }
+
+    h2 {
+        font-size: 45px
+    }
+
+    section {
+        padding: 50px 0
+    }
+
+    .donations-cards .card-container .card-item {
+        -ms-flex: 25%;
+        flex: 50%
+    }
+
+    .footerleft .fgirl {
+        left: -10px;
+        width: 120px;
+        top: 80px
+    }
+
+    .social ul li a {
+        width: 40px;
+        height: 40px
+    }
+
+    .social ul li a img {
+        width: 20px
+    }
+
+    form h6 {
+        text-align: left
+    }
+
+    .cbox {
+        margin-left: 0
+    }
+
+    .imgabovecircle {
+        top: 40px;
+        right: -20px;
+        width: 100%
+    }
+
+    .ourTeam .imageBox {
+        width: 360px;
+        height: 460px
+    }
+
+    .ourTeam .contentBox {
+        width: 360px
+    }
+
+    .ourTeam .contentBox h4 {
+        font-size: 40px
+    }
+}
+
+@media(max-width:991px) {
+    .copyright,
+    .article .image,
+    .article .text,
+    .article .text p,
+    .teamText,
+    .vision,
+    .vision p {
+        text-align: center
+    }
+
+    header .navigation li {
+        margin: 0 5px
+    }
+
+    header .navigation li a {
+        font-size: 15px
+    }
+
+    .button15 {
+        font-size: 18px;
+        min-width: 150px
+    }
+
+    .kids img {
+        width: 70px
+    }
+
+    .kidsBox {
+        height: 100px
+    }
+
+    .story-section .left {
+        display: block;
+        width: 100%
+    }
+
+    .story-section .left > img,
+    .story-section .right > img {
+        display: none
+    }
+
+    .story-section .right {
+        display: block;
+        width: 100%
+    }
+
+    .overlay,
+    .overlay2 {
+        position: relative;
+        opacity: 1;
+        visibility: visible
+    }
+
+    .logo img {
+        width: 210px;
+    }
+
+    .story-section .cross {
+        display: none
+    }
+
+    .article .image,
+    .article .text {
+        display: block;
+        width: 100%;
+        margin: 20px 0
+    }
+
+    .oura .left-illustration {
+        text-align: center;
+        display: block;
+    }
+
+    .oura .left-illustration img {
+        width: 90%
+    }
+
+    .oura .righ-c p {
+        font-size: 16px
+    }
+
+    .donations-cards {
+        margin-top: 10px
+    }
+
+    .card-item .items .image {
+        height: 95px
+    }
+
+    .donations-cards .card-item .card-item .items {
+        padding: 30px 30px 0
+    }
+
+    .card-item .items .btn {
+        padding-bottom: 40px
+    }
+
+    .footerleft {
+        margin-top: 40px
+    }
+
+    .footerleft .fgirl {
+        left: 90px
+    }
+
+    .overlay2 {
+        background-color: transparent
+    }
+
+    .story-section .left .text .button15,
+    .story-section .right .text .button15 {
+        display: none
+    }
+
+    h4 {
+        font-size: 45px
+    }
+
+    .cfa {
+        width: 90%
+    }
+
+    .blrow .blcol {
+        width: 100%
+    }
+
+    .pledge .box {
+        width: 70%;
+        margin: 0 auto
+    }
+
+    .pledge .box p {
+        top: 160px
+    }
+
+    .milestone ul li {
+        margin-bottom: 20px
+    }
+
+    /* not fully responsive needs a bit of more work */
+
+    .pledge .pledgeText {
+        padding: 0;
+        margin-bottom: 30px
+    }
+
+    .elementInner .elementBox {
+        text-align: center;
+        width: 90%
+    }
+
+    .elementInner .elementBox h2 {
+        margin-top: 20px
+    }
+
+    .elementBox .spiral {
+        margin-top: 30px
+    }
+
+    .elementInner .elementBox img {
+        margin-top: 0
+    }
+
+    .elementInner {
+        padding: 50px 0
+    }
+
+    .help .happykids img {
+        height: 140px;
+        width: auto
+    }
+
+    .copyright p {
+        line-height: 25px
+    }
+
+    .utube iframe {
+        height: 400px
+    }
+
+    .cbox {
+        margin-top: 15px
+    }
+
+    form input[type=email],
+    form input[type=number],
+    form input[type=text] {
+        padding: 0 5px 5px
+    }
+
+    .mission,
+    .vision {
+        width: 100%
+    }
+
+    .vision img {
+        right: auto;
+        width: 200px;
+        margin-bottom: 40px
+    }
+
+    .blrow .blcol .left,
+    .ourTeam .imageBox {
+        margin: 0 auto
+    }
+
+    .centersec {
+        padding: 50px 0
+    }
+
+    .doNow .kidsBox {
+        display: none
+    }
+
+    .imgabovecircle {
+        right: 0
+    }
+
+    .ourTeam .contentBox {
+        margin: 20px auto
+    }
+
+    .teamText {
+        padding: 0 10px
+    }
+
+    .teamText .spiral {
+        margin-bottom: 60px
+    }
+
+    .ourTeam .row:last-child,
+    .ourTeam .row:last-child .teamText .spiral {
+        margin-bottom: 0
+    }
+
+    .ourTeam h2 {
+        margin-bottom: 140px
+    }
+
+    .ourTeam .imageBox .sad2 {
+        right: 80px
+    }
+
+    .absolImages {
+        height: 415px
+    }
+
+    .month h6 {
+        font-size: 22px
+    }
+
+    .landing-text {
+        text-align: center
+    }
+
+    .logo img {
+        width: 100%
+    }
+
+    header .navigation {
+        margin: 0
+    }
+
+    header .navigation li a {
+        font-size: 14px
+    }
+
+    header .navigation li {
+        margin: 0 3px
+    }
+
+    header .headerContact {
+        margin-top: -10px
+    }
+}
+
+@media (max-width:992px) {
+    .logo {
+        text-align: center;
+    }
+}
+
+.hidden img {
+    visibility:hidden;
+    opacity: 0;
+}
+
+@media(max-width:767px) {
+    .oura .left-illustration {
+        text-align: center;
+    }
+    .oura .left-illustration img {
+        width: 80%
+    }
+
+    .logo,
+    .month .social,
+    .month h6,
+    .month p,
+    .month span,
+    header .headerContact,
+    header .navigation {
+        text-align: center
+    }
+
+    .oura .righ-c .description {
+        margin: 20px auto 0;
+        text-align: center;
+    }
+
+    .kids,
+    .month,
+    .month span {
+        position: relative
+    }
+
+    header .navigation {
+        float: none;
+        margin: 20px 0
+    }
+
+    header .headerContact {
+        float: none;
+        margin-top: 30px
+    }
+
+    .innerBanner {
+        padding: 30px 0
+    }
+
+    .kids {
+        top: 30px
+    }
+
+    .kidsBox {
+        height: 150px
+    }
+
+    .oura .left-illustration,
+    .oura .righ-c {
+        display: block;
+        width: 100%
+    }
+
+    .oura .righ-c .text {
+        margin: 20px auto 0;
+        text-align: center
+    }
+
+    .oura .righ-c .bg-circle {
+        width: 500px;
+        height: 500px;
+        top: -180px
+    }
+
+    .happykids img {
+        margin: 0 10px
+    }
+
+    .footerleft .fgirl {
+        left: 0;
+        width: 70px
+    }
+
+    .footerleft .fgirl {
+        top: -20px
+    }
+
+    .cfh {
+        margin-bottom: 40px
+    }
+
+    .cForm,
+    .cfh .row:last-child {
+        margin-top: 0
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    header .navigation li.active:before {
+        display: none
+    }
+
+    header .navigation li.active a {
+        color: #efcc23
+    }
+
+}
+
+@media(max-width:480px) {
+
+    .oura .left-illustration img {
+        width: 70%
+    }
+    .happykids img {
+        width: 70px
+    }
+
+    h1 {
+        font-size: 50px
+    }
+
+    .article .text {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .lp-container {
+        margin-top: 30px
+    }
+
+    .cfh .happykids img {
+        height: 120px
+    }
+
+}
+@media(max-width:320px) {
+
+    .footerleft .fgirl{
+        display: none
+    }
+
+    .social ul li {
+        margin: 0 5px
+    }
+
+    .cfh .happykids img {
+        height: 100px
+    }
+}
+
+.cForm #firstname {
+    height:1px;
+    opacity:0;
+    padding:0;
+    margin-bottom:0;
+}
+
+.copyright-disclaimer {
+    display: inline-block;
+}
+
+.language-selector {
+    float: right;
+}
+
+.language-selector a{
+    color: #000;
+}
+
