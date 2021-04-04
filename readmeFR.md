@@ -8,7 +8,7 @@ Kamel Htira
 
 
 # Qu'est-ce que The Tunisian Unity?
-Il s'agit d'une idée de projet de startup fondée par 3 membres lors de l'événement Hackathon "INNOV IT" célébrant les 20 ans du club "Jeunes Ingénieurs" à l'ISAMM Tunisie.
+Il s'agit d'une idée de projet de startup fondée par une équipe de 3 membres lors de l'événement Hackathon "INNOV IT" célébrant les 20 ans du club "Jeunes Ingénieurs" à l'ISAMM Tunisie.
 
 # L'idée principale de notre projet:
 Nous voulions nous concentrer sur l'un des principaux problèmes sociaux de notre pays qui est la pauvreté,
