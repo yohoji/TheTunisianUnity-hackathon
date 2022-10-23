@@ -1,34 +1,29 @@
 // switching between happy and sad kids
-var button = document.querySelector("#calltoa");
-var button1 = document.querySelector("#calltoa1");
+var button = document.querySelectorAll(".calltoa");
 
-button.addEventListener("mouseenter", function(e) {
+function happyKids() {
     var kid1 = document.querySelector("#kid1");
     var kid2 = document.querySelector("#kid2");
     kid1.setAttribute("src", "../images/boy2.png");
     kid2.setAttribute("src", "../images/girlh.png");
-});
+}
 
-button.addEventListener("mouseout", function(e) {
+function sadKids() {
     var kid1 = document.querySelector("#kid1");
     var kid2 = document.querySelector("#kid2");
     kid1.setAttribute("src", "../images/boy2_sad.png");
     kid2.setAttribute("src", "../images/girl_sad1.png");
-});
+}
 
-button1.addEventListener("mouseenter", function(e) {
-    var kid1 = document.querySelector("#kid1");
-    var kid2 = document.querySelector("#kid2");
-    kid1.setAttribute("src", "../images/boy2.png");
-    kid2.setAttribute("src", "../images/girlh.png");
-});
-
-button1.addEventListener("mouseout", function(e) {
-    var kid1 = document.querySelector("#kid1");
-    var kid2 = document.querySelector("#kid2");
-    kid1.setAttribute("src", "../images/boy2_sad.png");
-    kid2.setAttribute("src", "../images/girl_sad1.png");
-});
+button.forEach((button) => {
+    button.addEventListener("mouseenter", function(e) {
+        happyKids()
+    });
+    
+    button.addEventListener("mouseout", function(e) {
+        sadKids()
+    });
+})
 
 // articles toggler
 
