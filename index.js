@@ -4,15 +4,15 @@ var button = document.querySelectorAll(".calltoa");
 function happyKids() {
     var kid1 = document.querySelector("#kid1");
     var kid2 = document.querySelector("#kid2");
-    kid1.setAttribute("src", "../images/boy2.png");
-    kid2.setAttribute("src", "../images/girlh.png");
+    kid1.setAttribute("src", "images/boy2.png");
+    kid2.setAttribute("src", "images/girlh.png");
 }
 
 function sadKids() {
     var kid1 = document.querySelector("#kid1");
     var kid2 = document.querySelector("#kid2");
-    kid1.setAttribute("src", "../images/boy2_sad.png");
-    kid2.setAttribute("src", "../images/girl_sad1.png");
+    kid1.setAttribute("src", "images/boy2_sad.png");
+    kid2.setAttribute("src", "images/girl_sad1.png");
 }
 
 button.forEach((button) => {
